@@ -1,0 +1,83 @@
+.eachCardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #0f172a;
+  padding: 15px;
+  border-radius: 12px;
+  align-items: center;
+  list-style: none;
+  height: 430px;
+  width: 250px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .eachCardContainer {
+    width: 280px;
+    height: 393px;
+    padding: 30px;
+  }
+  .logoImage {
+    width: 50px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .team_name {
+    margin-bottom: 5px;
+    margin-top: 2px;
+  }
+  .result {
+    margin-bottom: 0px;
+  }
+}
+
+.eachCardContainer:hover {
+  border: 5px solid rgb(13, 108, 231);
+}
+
+.logoImage {
+  width: 100px;
+  height: 120px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.team_name {
+  color: white;
+  font-weight: bold;
+  font-size: 23px;
+  font-family: 'Roboto';
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.result {
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: 'Roboto';
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.LostStatus {
+  color: rgb(238, 12, 12);
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto';
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.WinStatus {
+  color: rgb(2, 248, 23);
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto';
+  text-align: center;
+  margin-bottom: 5px;
+}

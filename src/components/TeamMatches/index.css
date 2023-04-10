@@ -1,0 +1,70 @@
+.teamMatches_Container {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner_Container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.bannerImage {
+  width: 100%;
+}
+
+.latestMatches_container {
+  width: 100%;
+  color: white;
+}
+
+.matchCard_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+}
+.latestMatches_heading {
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.color1 {
+  background-image: linear-gradient(#a4261d, #1e293b);
+}
+.color2 {
+  background-image: linear-gradient(#5755a7, #d91c1f);
+}
+.color3 {
+  background-image: linear-gradient(#d91c1f, #f7db00);
+}
+.color4 {
+  background-image: linear-gradient(#da237b, #f7db00);
+}
+.color5 {
+  background-image: linear-gradient(#13418b, #f26d22);
+}
+.color6 {
+  background-image: linear-gradient(#4f5db0, #da237b);
+}
+.color7 {
+  background-image: linear-gradient(#475569, #f7db00);
+}
+.color8 {
+  background-image: linear-gradient(#4aadd4, #4cd6c4);
+}
+.color9 {
+  background-image: linear-gradient(#d4560d, #77a8ec);
+}
+
+.color10 {
+  background-image: linear-gradient(#93e293, #e768a3);
+}
